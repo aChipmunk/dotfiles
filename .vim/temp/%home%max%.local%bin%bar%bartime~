@@ -1,0 +1,3 @@
+#!/bin/sh
+pintme=$("date \"+%H:%M\"")
+printf " %s " "$printme"
