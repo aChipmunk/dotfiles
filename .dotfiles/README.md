@@ -17,3 +17,6 @@
 * dwmblocks
 * ly
 * lenovo fix for thinkpad
+
+## Other things to config
+set lid suspend action in /etc/systemd/logind.conf

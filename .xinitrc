@@ -13,7 +13,7 @@ exec nitrogen --restore &
 exec picom -b &
 exec dunst &
 exec libinput-gestures &
-exec xautolock -time 10 -locker "systemctl suspend" -notify 30 -notifier\
+exec xautolock -time 10 -locker "systemctl suspend" -notify 30 -notifier \
 "dunstify 'Suspend in 30 seconds'" -corners --00 &
 exec dwmblocks&
 
