@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 # Fix Gnome Apps Slow  Start due to failing services
 # Add this when you include flatpak in your system
 dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
@@ -15,7 +15,7 @@ exec dwmblocks&
 # Touchpad config
 # enable tap to click
 xinput set-prop "Synaptics TM3289-021" 307 1
-#disable middle mouse click
+# disable middle mouse click
 xinput set-button-map "Synaptics TM3289-021" 1 0 3 4 5 6 7
 # set accel speed
 xinput set-prop "Synaptics TM3289-021" 327 .25

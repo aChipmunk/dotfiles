@@ -1,2 +1,3 @@
 #!/bin/sh
-date "+ %a, %b %d "
+out="$(date "+%a, %b %d")"
+printf "  %s " "$out"

@@ -12,4 +12,4 @@ fi
 
 [ $(pulsemixer --get-mute) -eq 1 ] && icon=""
 
-printf " %s %s%%  " "$icon" "$vol"
+printf " %s %s%% " "$icon" "$vol"
